@@ -1,0 +1,64 @@
+.btn-primary {
+  background-color: #ffb800;
+}
+
+.gradient-section {
+  background: linear-gradient(135deg, #0a74da, #00bfa6);
+  color: #fff;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer svg {
+  vertical-align: middle;
+}
+
+.gradient-section .container {
+  padding-left: 0;
+  padding-right: 0; /* optional, if you want right edge alignment too */
+}
+
+.home-link {
+  padding-left: 1rem;
+}
+
+.gradient-section footer a {
+  color: #fff;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.gradient-section footer a:hover {
+  opacity: 1;
+}
+
+body {
+  padding-top: 4.5rem;
+} /* adjust to your navbar height */
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 3.5rem;
+  }
+}
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* .gradient-header .nav-link {
+  color: white;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.gradient-header .nav-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+header svg {
+  vertical-align: middle;
+} */
